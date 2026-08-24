@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/home/brenard/BEN/GitHub/benRenard.github.io",
+	"sourceRoot": "/home/brenard/BEN/GitHub/rhax-recover.github.io",
 	"sources": [
 		"themes/hugo-clarity/assets/sass/main.sass",
 		"themes/hugo-clarity/assets/sass/_variables.sass",
