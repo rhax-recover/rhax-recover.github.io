@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RHAX on </title>
+    <link>https://benrenard.github.io/en/</link>
+    <description>Recent content in RHAX on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://benrenard.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Caracterizing Hydro-Climate Variability</title>
+      <link>https://benrenard.github.io/en/research/variability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/en/research/variability/</guid>
+      <description>&lt;p&gt;XXX&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Current Team</title>
+      <link>https://benrenard.github.io/en/team/current/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/en/team/current/</guid>
+      <description>&lt;p&gt;Current team members: Sacha Folton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Databases</title>
+      <link>https://benrenard.github.io/en/tools/databases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/en/tools/databases/</guid>
+      <description>&lt;p&gt;Databases&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modeling Hydrological Processes</title>
+      <link>https://benrenard.github.io/en/research/modeling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/en/research/modeling/</guid>
+      <description>&lt;p&gt;XXX&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Models</title>
+      <link>https://benrenard.github.io/en/tools/models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/en/tools/models/</guid>
+      <description>&lt;p&gt;Our models&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Past Members</title>
+      <link>https://benrenard.github.io/en/team/past/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/en/team/past/</guid>
+      <description>&lt;p&gt;Past members:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://benrenard.github.io/en/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/en/projects/</guid>
+      <description>&lt;p&gt;XXX&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://benrenard.github.io/en/tools/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/en/tools/software/</guid>
+      <description>&lt;p&gt;Here are our soft&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,170 @@
+baseURL = "https://benrenard.github.io/"
+publishDir = "docs"
+theme = "hugo-clarity"
+tableOfContents=true
+
+# languages
+defaultContentLanguage = 'fr'
+defaultContentLanguageInSubdir = true
+[languages]
+    [languages.fr]
+      disabled = false
+      languageCode = 'fr'
+      languageName = 'Français'
+      weight = 1
+      [[languages.fr.menu.main]]
+        identifier = "accueil"
+        name = "RHAX"
+        url = "/fr"
+        weight = 10
+      [[languages.fr.menu.main]]
+        identifier = "equipe"
+        name = "Équipe"
+        url = "/fr/team"
+        weight = 20
+		  [[languages.fr.menu.main]]
+		    name = "Équipe actuelle"
+		    weight = 10
+		    parent="equipe"
+		    url = "/fr/team/current/"
+		  [[languages.fr.menu.main]]
+		    name = "Anciens membres"
+		    weight = 20
+		    parent="equipe"
+		    url = "/fr/team/past/"
+      [[languages.fr.menu.main]]
+        identifier = "recherche"
+        name = "Thématiques de Recherche"
+        url = "/fr/research"
+        weight = 30
+		  [[languages.fr.menu.main]]
+			name = "Caractérisation de la variabilité hydro-climatique"
+			weight = 10
+			parent="recherche"
+			url="/fr/research/variability/"
+		  [[languages.fr.menu.main]]
+			name = "Modélisation des processus hydrologiques"
+			weight = 20
+			parent="recherche"
+			url="/fr/research/modeling/"
+	  [[languages.fr.menu.main]]
+	    identifier="projets"
+	    name = "Projets"
+	    weight = 40
+	    url="/fr/projects/"
+      [[languages.fr.menu.main]]
+        identifier = "outils"
+        name = "Outils"
+        weight = 50
+        url = "/fr/tools"
+		  [[languages.fr.menu.main]]
+		    name = "Modèles"
+		    weight = 10
+		    parent="outils"
+		    url = "/fr/tools/models/"
+		  [[languages.fr.menu.main]]
+		    name = "Bases de données"
+		    weight = 20
+		    parent="outils"
+		    url = "/fr/tools/databases/"
+		  [[languages.fr.menu.main]]
+		    name = "Logiciels"
+		    weight = 30
+		    parent="outils"
+		    url = "/fr/tools/software/"
+      [[languages.fr.menu.main]]
+        name = "🇬🇧 en"
+        weight = 99
+        url = "../en"
+    [languages.en]
+      disabled = false
+      languageCode = 'en'
+      languageName = 'English'
+      weight = 2
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "RHAX"
+        url = "/en"
+        weight = 10
+      [[languages.en.menu.main]]
+        identifier = "team"
+        name = "Team"
+        url = "/en/team"
+        weight = 20
+		  [[languages.en.menu.main]]
+		    name = "Current Members"
+		    weight = 10
+		    parent="team"
+		    url = "en/team/current/"
+		  [[languages.en.menu.main]]
+		    name = "Past Members"
+		    weight = 20
+		    parent="team"
+		    url = "en/team/past/"
+      [[languages.en.menu.main]]
+        identifier = "research"
+        name = "Research Topics"
+        weight = 30
+        url = "/en/research"
+		  [[languages.en.menu.main]]
+			name = "Characterizing Hydro-Climate Variability"
+			weight = 10
+			parent="research"
+			url="/en/research/variability/"
+		  [[languages.en.menu.main]]
+			name = "Modeling Hydrological Processes"
+			weight = 20
+			parent="research"
+			url="/en/research/modeling/"
+	  [[languages.en.menu.main]]
+	    identifier="projects"
+	    name = "Projects"
+	    weight = 40
+	    url="/en/projects/"
+      [[languages.en.menu.main]]
+        identifier = "tools"
+        name = "Tools"
+        weight = 50
+        url = "/en/tools"
+		  [[languages.en.menu.main]]
+		    name = "Models"
+		    weight = 10
+		    parent="tools"
+		    url = "/en/tools/models/"
+		  [[languages.en.menu.main]]
+		    name = "Databases"
+		    weight = 20
+		    parent="tools"
+		    url = "/en/tools/databases/"
+		  [[languages.en.menu.main]]
+		    name = "Software"
+		    weight = 30
+		    parent="tools"
+		    url = "/en/tools/software/"
+      [[languages.en.menu.main]]
+        name = "🇫🇷 fr"
+        weight = 99
+        url = "../fr"
+
+[[menu.sidebar]]
+  name = "RHAX"
+  url = "/"
+  weight = 1
+
+[[menu.sidebar]]
+  name = "Publications"
+  url = "/recherche/publications/"
+  weight = 2
+      
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  showDate = false
+  showReadingTime = false
+  showShare = false
+  customCSS = ["css/style.css"]
+
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rhax on </title>
+    <link>https://benrenard.github.io/fr/</link>
+    <description>Recent content in rhax on </description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <atom:link href="https://benrenard.github.io/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anciens membres</title>
+      <link>https://benrenard.github.io/fr/team/past/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/fr/team/past/</guid>
+      <description>&lt;p&gt;Voici la liste des anciens membres.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Base de données</title>
+      <link>https://benrenard.github.io/fr/tools/databases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/fr/tools/databases/</guid>
+      <description>&lt;p&gt;base de donnees&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Caractérisation de la variabilité hydro-climatique</title>
+      <link>https://benrenard.github.io/fr/research/variability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/fr/research/variability/</guid>
+      <description>&lt;p&gt;XXX&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Equipe actuelle</title>
+      <link>https://benrenard.github.io/fr/team/current/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/fr/team/current/</guid>
+      <description>&lt;p&gt;Voici la liste des membres actuels de l&amp;rsquo;équipe : Sacha Folton&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Logiciel</title>
+      <link>https://benrenard.github.io/fr/tools/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/fr/tools/software/</guid>
+      <description>&lt;p&gt;voici nos logiciels&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modeles hydrologiques</title>
+      <link>https://benrenard.github.io/fr/tools/models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/fr/tools/models/</guid>
+      <description>&lt;p&gt;voici les modèles hydrologiques&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modélisation des processus hydrologiques</title>
+      <link>https://benrenard.github.io/fr/research/modeling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/fr/research/modeling/</guid>
+      <description>&lt;p&gt;XXX&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projets</title>
+      <link>https://benrenard.github.io/fr/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://benrenard.github.io/fr/projects/</guid>
+      <description>&lt;p&gt;Quelques projets emblématiques&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
