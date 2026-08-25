@@ -1,4 +1,4 @@
-baseURL = "https://benrenard.github.io/"
+baseURL = "https://rhax-recover.github.io/"
 publishDir = "docs"
 theme = "hugo-clarity"
 tableOfContents=true
