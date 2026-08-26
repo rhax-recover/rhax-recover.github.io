@@ -41,7 +41,7 @@
 
 
 .page-hero {
-  height: 250px; /* ← change CE nombre */
+  height: 450px; /* ← change CE nombre */
   overflow: hidden;
 }
 
@@ -98,7 +98,7 @@
 /* Banderole pleine largeur */
 .top-banner {
   width: 100%;
-  background: white;
+/*   background: white; */
   padding: 0px 0;
   margin-top: 0px;
   position: relative; /* IMPORTANT : pas sticky */ 
@@ -201,7 +201,7 @@ body {
 /* Listes à puces */
 ul {
   list-style-type: disc; /* affiche des points */
-  padding-left: 20px;
+  padding-left: 20%;
   margin-bottom: 1em;
 }
 
@@ -215,7 +215,7 @@ h1, h3, h4 {
   margin-top: 0em;
   margin-bottom: 0.em; /* réduit l'espace après le titre */
   text-align: ;
- padding: 0rem 15rem;
+  padding: 0rem 20%;
 }
 
 /* Titres */
@@ -234,9 +234,14 @@ p {
   text-align: justify;  /* justifie le texte comme sur ton image */
   line-height: 1.6em;   /* espace entre les lignes */
   margin-bottom: 1em;
-  padding: 0rem 15rem;
+  padding: 0rem 20%;
 }
 
+/* Links */
+.post_body a {
+  text-decoration: underline;;
+  color: #00a3a6;
+}
 
 /* --- Réduction de l'espace dans la page de recherche --- */
 
@@ -256,7 +261,7 @@ p {
 }
 
 body::before {
-  /* content: "CUSTOM CSS OK"; */
+  content: "" /* "CUSTOM CSS OK"; */
   position: fixed;
   top: 1000px;
   left: 0;

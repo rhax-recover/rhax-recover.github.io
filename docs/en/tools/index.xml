@@ -26,7 +26,7 @@
       <link>https://rhax-recover.github.io/en/tools/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://rhax-recover.github.io/en/tools/software/</guid>
-      <description>&lt;p&gt;Here are our soft&lt;/p&gt;</description>
+      <description>&lt;p&gt;Here are our soft:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;baratinage&#34;&gt;BaRatinAGE&lt;/a&gt; to estimate rating curves and related uncertainties.&lt;/li&gt;&#xA;&lt;li&gt;etc&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
