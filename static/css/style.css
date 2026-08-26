@@ -201,7 +201,7 @@ body {
 /* Listes à puces */
 ul {
   list-style-type: disc; /* affiche des points */
-  padding-left: 20px;
+  padding-left: 20%;
   margin-bottom: 1em;
 }
 
@@ -215,7 +215,7 @@ h1, h3, h4 {
   margin-top: 0em;
   margin-bottom: 0.em; /* réduit l'espace après le titre */
   text-align: ;
- padding: 0rem 20%;
+  padding: 0rem 20%;
 }
 
 /* Titres */
@@ -237,6 +237,11 @@ p {
   padding: 0rem 20%;
 }
 
+/* Links */
+.post_body a {
+  text-decoration: underline;;
+  color: #00a3a6;
+}
 
 /* --- Réduction de l'espace dans la page de recherche --- */
 

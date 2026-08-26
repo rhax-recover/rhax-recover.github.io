@@ -3,4 +3,7 @@ title: "Logiciel"
 slug: "software"
 ---
 
-voici nos logiciels
+Voici nos logiciels:
+
+* [BaRatinAGE](baratinage) pour l'estimation des courbes de tarage et des incertitudes associées.
+* etc...
