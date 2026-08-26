@@ -98,12 +98,11 @@
 /* Banderole pleine largeur */
 .top-banner {
   width: 100%;
-/*   background: white; */
+  background: white;
   padding: 0px 0;
   margin-top: 0px;
   position: relative; /* IMPORTANT : pas sticky */ 
   z-index: 10;
-
 }
 
 /* Logos alignés à gauche dans la banderole */
@@ -126,6 +125,9 @@
 }
 .logo-inrae {
   height: 30px;
+}
+.logo-amu {
+  height: 50px;
 }
 
 /* bande avec les menu */
@@ -176,8 +178,8 @@ body {
 }
 
 .home-hero {
-  height: 400px;
-  background-image: url("../images/home-banner.jpg");
+  height: 200px;
+  background-image: url("../images/home-banner2.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -189,7 +191,6 @@ body {
 .home-hero-content {
   background: rgba(255,255,255,0.8);
   color: white;
-  
 }
 
 .titre-inrae {
