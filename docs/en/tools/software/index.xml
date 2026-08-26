@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on </title>
+    <link>https://rhax-recover.github.io/en/tools/software/</link>
+    <description>Recent content in Software on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://rhax-recover.github.io/en/tools/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BaRatinAGE</title>
+      <link>https://rhax-recover.github.io/en/tools/software/baratinage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rhax-recover.github.io/en/tools/software/baratinage/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;To provide operational solutions to the difficult problems of developing, calibrating, reviewing simple and complex rating curves and estimating their uncertainties, the Bayesian BaRatin method (Bayesian Rating curve, &lt;a href=&#34;https://doi.org/10.1016/j.jhydrol.2013.11.016&#34;&gt;Le Coz et al., 2014&lt;/a&gt; ; &lt;a href=&#34;https://doi.org/10.1002/2017WR022039&#34;&gt;Horner et al., 2018&lt;/a&gt;) has been developed by INRAE since 2010. The development of methods for quantifying the uncertainties of hydrologic data and models is one of the team&amp;rsquo;s research themes.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The software &lt;a href=&#34;https://github.com/BaRatin-tools/BaRatinAGE&#34;&gt;BaRatinAGE&lt;/a&gt; is open-source and distributed in more than 25 languages (including French and English). The latest version is available &lt;a href=&#34;https://github.com/BaRatin-tools/BaRatinAGE/releases/latest&#34;&gt;here&lt;/a&gt; and you can find all the details as well as training materials in French, English and Spanish on &lt;a href=&#34;https://baratin-tools.github.io/en/&#34;&gt;BaRatin&amp;rsquo;s website&lt;/a&gt;. A video tutorial is also available &lt;a href=&#34;https://www.youtube.com/watch?v=TdRH1jmFhZQ&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

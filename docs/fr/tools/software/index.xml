@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logiciel on </title>
+    <link>https://rhax-recover.github.io/fr/tools/software/</link>
+    <description>Recent content in Logiciel on </description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <atom:link href="https://rhax-recover.github.io/fr/tools/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BaRatinAGE</title>
+      <link>https://rhax-recover.github.io/fr/tools/software/baratinage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rhax-recover.github.io/fr/tools/software/baratinage/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Pour apporter des solutions opérationnelles aux problèmes délicats que posent la construction, le calage, la critique et l’estimation des incertitudes des courbes de tarage simples et complexes, la méthode bayésienne BaRatin (Bayesian Rating curve, &lt;a href=&#34;https://doi.org/10.1016/j.jhydrol.2013.11.016&#34;&gt;Le Coz et al., 2014&lt;/a&gt; ; &lt;a href=&#34;https://doi.org/10.1002/2017WR022039&#34;&gt;Horner et al., 2018&lt;/a&gt;) a été développée par INRAE depuis 2010. Le développement de méthodes pour la quantification des incertitudes des données et des modèles hydrologiques est un des thèmes de recherche de l&amp;rsquo;équipe.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

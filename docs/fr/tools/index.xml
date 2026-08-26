@@ -7,26 +7,5 @@
     <generator>Hugo</generator>
     <language>fr</language>
     <atom:link href="https://rhax-recover.github.io/fr/tools/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Base de données</title>
-      <link>https://rhax-recover.github.io/fr/tools/databases/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rhax-recover.github.io/fr/tools/databases/</guid>
-      <description>&lt;p&gt;base de donnees&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Logiciel</title>
-      <link>https://rhax-recover.github.io/fr/tools/software/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rhax-recover.github.io/fr/tools/software/</guid>
-      <description>&lt;p&gt;Voici nos logiciels:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;baratinage&#34;&gt;BaRatinAGE&lt;/a&gt; pour l&amp;rsquo;estimation des courbes de tarage et des incertitudes associées.&lt;/li&gt;&#xA;&lt;li&gt;etc&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Modeles hydrologiques</title>
-      <link>https://rhax-recover.github.io/fr/tools/models/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rhax-recover.github.io/fr/tools/models/</guid>
-      <description>&lt;p&gt;Voici les modèles hydrologiques&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

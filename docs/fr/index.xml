@@ -15,11 +15,11 @@
       <description>&lt;p&gt;Voici la liste des anciens membres.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Base de données</title>
-      <link>https://rhax-recover.github.io/fr/tools/databases/</link>
+      <title>BaRatinAGE</title>
+      <link>https://rhax-recover.github.io/fr/tools/software/baratinage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rhax-recover.github.io/fr/tools/databases/</guid>
-      <description>&lt;p&gt;base de donnees&lt;/p&gt;</description>
+      <guid>https://rhax-recover.github.io/fr/tools/software/baratinage/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Pour apporter des solutions opérationnelles aux problèmes délicats que posent la construction, le calage, la critique et l’estimation des incertitudes des courbes de tarage simples et complexes, la méthode bayésienne BaRatin (Bayesian Rating curve, &lt;a href=&#34;https://doi.org/10.1016/j.jhydrol.2013.11.016&#34;&gt;Le Coz et al., 2014&lt;/a&gt; ; &lt;a href=&#34;https://doi.org/10.1002/2017WR022039&#34;&gt;Horner et al., 2018&lt;/a&gt;) a été développée par INRAE depuis 2010. Le développement de méthodes pour la quantification des incertitudes des données et des modèles hydrologiques est un des thèmes de recherche de l&amp;rsquo;équipe.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Caractérisation de la variabilité hydro-climatique</title>
@@ -34,20 +34,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://rhax-recover.github.io/fr/team/current/</guid>
       <description>&lt;p&gt;Voici la liste des membres actuels de l&amp;rsquo;équipe : Sacha Folton&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Logiciel</title>
-      <link>https://rhax-recover.github.io/fr/tools/software/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rhax-recover.github.io/fr/tools/software/</guid>
-      <description>&lt;p&gt;Voici nos logiciels:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;baratinage&#34;&gt;BaRatinAGE&lt;/a&gt; pour l&amp;rsquo;estimation des courbes de tarage et des incertitudes associées.&lt;/li&gt;&#xA;&lt;li&gt;etc&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Modeles hydrologiques</title>
-      <link>https://rhax-recover.github.io/fr/tools/models/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rhax-recover.github.io/fr/tools/models/</guid>
-      <description>&lt;p&gt;Voici les modèles hydrologiques&lt;/p&gt;</description>
     </item>
     <item>
       <title>Modélisation des processus hydrologiques</title>

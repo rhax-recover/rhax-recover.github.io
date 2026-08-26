@@ -14,6 +14,18 @@
                 href="https://rhax-recover.github.io/fr/team/past/"
                 />
   </url><url>
+    <loc>https://rhax-recover.github.io/fr/tools/software/baratinage/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rhax-recover.github.io/en/tools/software/baratinage/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://rhax-recover.github.io/fr/tools/software/baratinage/"
+                />
+  </url><url>
     <loc>https://rhax-recover.github.io/fr/tools/databases/</loc>
     <xhtml:link
                 rel="alternate"
