@@ -11,10 +11,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Caracterizing Hydro-Climate Variability</title>
+  <title>ShiftHappens, a package for shift detection</title>
 
   
-<title>Caracterizing Hydro-Climate Variability | </title>
+<title>ShiftHappens, a package for shift detection | </title>
 <meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -29,21 +29,21 @@
 <meta property="og:locale:alternate" content="fr" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="XXX" />
+<meta name="description" content="ShiftHappens is an R package for detecting, visualizing and estimating shifts, with a specific focus on hydrometric applications and stage-discharge rating …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Caracterizing Hydro-Climate Variability" />
+<meta name="twitter:title" content="ShiftHappens, a package for shift detection" />
 <meta name="twitter:image" content="https://rhax-recover.github.io/"/>
-<meta property="og:url" content="https://rhax-recover.github.io/en/research/variability/" />
-<meta property="og:title" content="Caracterizing Hydro-Climate Variability" />
-<meta property="og:description" content="XXX" />
+<meta property="og:url" content="https://rhax-recover.github.io/en/tools/software/shifthappens/" />
+<meta property="og:title" content="ShiftHappens, a package for shift detection" />
+<meta property="og:description" content="ShiftHappens is an R package for detecting, visualizing and estimating shifts, with a specific focus on hydrometric applications and stage-discharge rating …" />
 <meta property="og:image" content="https://rhax-recover.github.io/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://rhax-recover.github.io/images/logo/logo_rhax.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://rhax-recover.github.io/images/logo/favicon-48x48.png">
 <link rel="manifest" href="https://rhax-recover.github.io/images/logo/site.webmanifest">
 
-<link rel="canonical" href="https://rhax-recover.github.io/en/research/variability/">
+<link rel="canonical" href="https://rhax-recover.github.io/en/tools/software/shifthappens/">
 
 
 
@@ -169,9 +169,24 @@
 
 
 
-<h1>Caracterizing Hydro-Climate Variability</h1>
+<h1>ShiftHappens, a package for shift detection</h1>
 
-<p>XXX</p>
+<p><a href="https://github.com/benRenard/ShiftHappens">ShiftHappens</a> is an R package for detecting, visualizing and estimating shifts, with a specific focus on hydrometric applications and stage-discharge rating shifts. The package builds on the work of <a href="https://doi.org/10.1029/2018WR023389">Mansanarez et al.</a> (2019) and <a href="https://doi.org/10.1029/2020WR028607">Darienzo et al.</a> (2021).</p>
+<p>As illustrated below, the package provides a segmentation procedure to split a data series into homogeneous subperiods. The method has been developed with the aim of accounting for data uncertainties, and providing the uncertainty around the estimated shift dates.</p>
+<p style="text-align: center;color: gray;">
+<img src="Segmentation_Recursive.png" width="70%"> </br>
+Segmentation of a data series into homogeneous subperiods (top), and uncertainty around the estimated shift dates, represented as probability density functions (bottom). 
+</p>
+<p>The segmentation procedure can also be used to detect changes affecting the relation between two variables. When this relation is a rating curve linking the water level and the discharge in a river, this leads to a tool to detect rating shifts based on the (stage, discharge) gaugings, as illustrated below.</p>
+<p style="text-align: center;color: gray;">
+<img src="Recursive_BaRatin.png" width="70%"> </br>
+Identification of homogeneous rating curves (top), and uncertainty around the estimated shift dates, represented as probability density functions (bottom). 
+</p>
+<p>The package also proposes a method to detect rating shifts based on the analysis of recessions. The key idea is the following: during long recession periods, the water level tends to the elevation of the riverbed. A shift in the lowest stage values reached during such recessions may hence suggest a change in the riverbed elevation (scouring or filling caused by a flood for instance), inducing a rating shift.</p>
+<p style="text-align: center;color: gray;">
+<img src="recModel.png" width="45%"> <img src="recModel2.png" width="45%"></br>
+Analysis of recessions for rating shift detection. The figure on the left illustrates the extraction of recessions periods (plotted from the start of the recession in the top panel and in absolute time in the bottom panel), the figure on the right illustrates the application of the segmentation procedure to the lowest stage values reached during each recession. 
+</p>
 
 
 

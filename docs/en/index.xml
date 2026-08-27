@@ -29,6 +29,13 @@
       <description>&lt;p&gt;Current team members: Sacha Folton&lt;/p&gt;</description>
     </item>
     <item>
+      <title>HydroPortailStats, HydroPortail&#39;s Statistical Module</title>
+      <link>https://rhax-recover.github.io/en/tools/software/hydroportailstats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rhax-recover.github.io/en/tools/software/hydroportailstats/</guid>
+      <description>&lt;p style=&#34;text-align: center&#34;&gt;&#xD;&#xA;&lt;a href=&#34;https://github.com/benRenard/HydroPortailStats&#34;&gt; &lt;img src=&#34;logo_HydroPortailStats.png&#34; width=&#34;75%&#34;&gt; &lt;/a&gt;&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;a href=&#34;https://hydro.eaufrance.fr/&#34;&gt;HydroPortail&lt;/a&gt; is the reference website for accessing hydrometric and hydrologic data in France. In addition to being a data portal, HydroPortail also provides statistical tools to analyze the series it stores, and in particular to estimate design discharge values (e.g. 10-year flood or 5-year drought). The R package &lt;a href=&#34;https://github.com/benRenard/HydroPortailStats&#34;&gt;HydroPortailStats&lt;/a&gt; contains all statistical computations made by HydroPortail, and even a few more such as the Bayesian estimation of a distribution or the analysis of incomplete and uncertain historical flood data.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Modeling Hydrological Processes</title>
       <link>https://rhax-recover.github.io/en/research/modeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -48,6 +55,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://rhax-recover.github.io/en/projects/</guid>
       <description>&lt;p&gt;XXX&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ShiftHappens, a package for shift detection</title>
+      <link>https://rhax-recover.github.io/en/tools/software/shifthappens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rhax-recover.github.io/en/tools/software/shifthappens/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/benRenard/ShiftHappens&#34;&gt;ShiftHappens&lt;/a&gt; is an R package for detecting, visualizing and estimating shifts, with a specific focus on hydrometric applications and stage-discharge rating shifts. The package builds on the work of &lt;a href=&#34;https://doi.org/10.1029/2018WR023389&#34;&gt;Mansanarez et al.&lt;/a&gt; (2019) and &lt;a href=&#34;https://doi.org/10.1029/2020WR028607&#34;&gt;Darienzo et al.&lt;/a&gt; (2021).&lt;/p&gt;&#xA;&lt;p&gt;As illustrated below, the package provides a segmentation procedure to split a data series into homogeneous subperiods. The method has been developed with the aim of accounting for data uncertainties, and providing the uncertainty around the estimated shift dates.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sonification R Packages</title>

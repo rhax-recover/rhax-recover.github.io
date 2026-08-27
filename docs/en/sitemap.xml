@@ -62,6 +62,18 @@
                 href="https://rhax-recover.github.io/en/tools/databases/"
                 />
   </url><url>
+    <loc>https://rhax-recover.github.io/en/tools/software/hydroportailstats/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://rhax-recover.github.io/fr/tools/software/hydroportailstats/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rhax-recover.github.io/en/tools/software/hydroportailstats/"
+                />
+  </url><url>
     <loc>https://rhax-recover.github.io/en/research/modeling/</loc>
     <xhtml:link
                 rel="alternate"
@@ -132,6 +144,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://rhax-recover.github.io/en/"
+                />
+  </url><url>
+    <loc>https://rhax-recover.github.io/en/tools/software/shifthappens/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://rhax-recover.github.io/fr/tools/software/shifthappens/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rhax-recover.github.io/en/tools/software/shifthappens/"
                 />
   </url><url>
     <loc>https://rhax-recover.github.io/en/tools/software/</loc>

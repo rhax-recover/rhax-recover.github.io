@@ -43,6 +43,13 @@
       <description>&lt;p&gt;Voici la liste des membres actuels de l&amp;rsquo;équipe : Sacha Folton&lt;/p&gt;</description>
     </item>
     <item>
+      <title>HydroPortailStats, le module statistique d&#39;HydroPortail</title>
+      <link>https://rhax-recover.github.io/fr/tools/software/hydroportailstats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rhax-recover.github.io/fr/tools/software/hydroportailstats/</guid>
+      <description>&lt;p style=&#34;text-align: center&#34;&gt;&#xD;&#xA;&lt;a href=&#34;https://github.com/benRenard/HydroPortailStats&#34;&gt; &lt;img src=&#34;logo_HydroPortailStats.png&#34; width=&#34;75%&#34;&gt; &lt;/a&gt;&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;L&amp;rsquo;&lt;a href=&#34;https://hydro.eaufrance.fr/&#34;&gt;HydroPortail&lt;/a&gt; est le site de référence pour l&amp;rsquo;accès aux données hydrométriques et hydrologiques en France. En plus de sa vocation première de portail d&amp;rsquo;accès, il propose un certain nombre d&amp;rsquo;outils statistiques pour analyser les séries stockées en base, et en particulier pour estimer des débits caractéristiques (par exemple débit de crue décennal ou débit d&amp;rsquo;étiage quinquennal). Le package R &lt;a href=&#34;https://github.com/benRenard/HydroPortailStats&#34;&gt;HydroPortailStats&lt;/a&gt; contient tous les calculs statistiques effectués par l&amp;rsquo;HydroPortail, et propose un certain nombre d&amp;rsquo;outils supplémentaires tels que l&amp;rsquo;estimation Bayesienne d&amp;rsquo;une distribution ou le traitement de données historiques de crues, incomplètes et incertaines.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Modélisation des processus hydrologiques</title>
       <link>https://rhax-recover.github.io/fr/research/modeling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -55,6 +62,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://rhax-recover.github.io/fr/projects/</guid>
       <description>&lt;p&gt;Quelques projets emblématiques&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ShiftHappens, un package pour la détection de changements soudains</title>
+      <link>https://rhax-recover.github.io/fr/tools/software/shifthappens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rhax-recover.github.io/fr/tools/software/shifthappens/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/benRenard/ShiftHappens&#34;&gt;ShiftHappens&lt;/a&gt; est un package R dédié à la détection, la visualisation et l&amp;rsquo;estimation de changements soudains dans des séries de données, avec une attention particulière portée aux applications hydrometriques et notamment à la détection de détarages. Le package est dérivé des travaux de &lt;a href=&#34;https://doi.org/10.1029/2018WR023389&#34;&gt;Mansanarez et al.&lt;/a&gt; (2019) et &lt;a href=&#34;https://doi.org/10.1029/2020WR028607&#34;&gt;Darienzo et al.&lt;/a&gt; (2021).&lt;/p&gt;&#xA;&lt;p&gt;Comme illustré dans la figure ci-dessous, le package permet de segmenter une série de données en plusieurs sous-périodes homogènes. La méthode utilisée a été dévelopée pour permettre la prise en compte des incertitudes qui affectent les données, et pour retourner également les incertitudes autour des dates de changement estimées.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
