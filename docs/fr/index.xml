@@ -29,6 +29,13 @@
       <description>&lt;p&gt;XXX&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Des packages R pour la sonification</title>
+      <link>https://rhax-recover.github.io/fr/tools/software/sonification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rhax-recover.github.io/fr/tools/software/sonification/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;La sonification est un procédé qui permet de transformer des données en sons, de la même façon que la visualisation transforme des données en images. Ceci permet de raconter l&amp;rsquo;histoire portée par les données en musique.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;L&amp;rsquo;équipe a développé deux packages R pour faciliter le processus de sonification et encourager la mise en musique des données. Le package &lt;a href=&#34;https://github.com/benRenard/musicXML&#34;&gt;musicXML&lt;/a&gt; permet d&amp;rsquo;écrire une partition au &lt;a href=&#34;https://fr.wikipedia.org/wiki/MusicXML&#34;&gt;format musicXML&lt;/a&gt; en définissant une association entre les valeurs prises par les données et les propriétés des notes (en particulier leur hauteur, volume et durée). La vidéo ci-dessous est &lt;a href=&#34;https://globxblog.github.io/blog/hydrology-basics-1/&#34;&gt;un exemple&lt;/a&gt; d&amp;rsquo;utilisation de ce package, dans lequel les trois principaux flux hydrologiques impliqués dans la bilan en eau des bassins versants (précipitation, évapotranspiration et débit) contrôlent trois instruments de musique.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Equipe actuelle</title>
       <link>https://rhax-recover.github.io/fr/team/current/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

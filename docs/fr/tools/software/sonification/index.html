@@ -4,17 +4,17 @@
 <html
   lang="fr"
   data-figures=""
-  
+  class="page"
   
   
 >
 
 <head>
   <meta charset="utf-8">
-  <title>Tags</title>
+  <title>Des packages R pour la sonification</title>
 
   
-<title>Tags | </title>
+<title>Des packages R pour la sonification | </title>
 <meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -29,22 +29,21 @@
 <meta property="og:locale:alternate" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="" />
+<meta name="description" content="La sonification est un procédé qui permet de transformer des données en sons, de la même façon que la visualisation transforme des données en images. Ceci …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Tags" />
+<meta name="twitter:title" content="Des packages R pour la sonification" />
 <meta name="twitter:image" content="https://rhax-recover.github.io/"/>
-<meta property="og:url" content="https://rhax-recover.github.io/fr/tags/" />
-<meta property="og:title" content="Tags" />
-<meta property="og:description" content="" />
+<meta property="og:url" content="https://rhax-recover.github.io/fr/tools/software/sonification/" />
+<meta property="og:title" content="Des packages R pour la sonification" />
+<meta property="og:description" content="La sonification est un procédé qui permet de transformer des données en sons, de la même façon que la visualisation transforme des données en images. Ceci …" />
 <meta property="og:image" content="https://rhax-recover.github.io/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://rhax-recover.github.io/images/logo/logo_rhax.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://rhax-recover.github.io/images/logo/favicon-48x48.png">
 <link rel="manifest" href="https://rhax-recover.github.io/images/logo/site.webmanifest">
 
-<link rel="canonical" href="https://rhax-recover.github.io/fr/tags/">
-<link rel="alternate" type="application/rss+xml" href="https://rhax-recover.github.io/fr/tags/index.xml" title="" />
+<link rel="canonical" href="https://rhax-recover.github.io/fr/tools/software/sonification/">
 
 
 
@@ -170,10 +169,18 @@
 
 
 
-<h1 class="page-title">Tags</h1>
+<h1>Des packages R pour la sonification</h1>
 
-
-
+<p><strong>La sonification est un procédé qui permet de transformer des données en sons, de la même façon que la visualisation transforme des données en images. Ceci permet de raconter l&rsquo;histoire portée par les données en musique.</strong></p>
+<p>L&rsquo;équipe a développé deux packages R pour faciliter le processus de sonification et encourager la mise en musique des données. Le package <a href="https://github.com/benRenard/musicXML">musicXML</a> permet d&rsquo;écrire une partition au <a href="https://fr.wikipedia.org/wiki/MusicXML">format musicXML</a> en définissant une association entre les valeurs prises par les données et les propriétés des notes (en particulier leur hauteur, volume et durée). La vidéo ci-dessous est <a href="https://globxblog.github.io/blog/hydrology-basics-1/">un exemple</a> d&rsquo;utilisation de ce package, dans lequel les trois principaux flux hydrologiques impliqués dans la bilan en eau des bassins versants (précipitation, évapotranspiration et débit) contrôlent trois instruments de musique.</p>
+<p style="text-align: center;color: gray;">
+<iframe src="https://player.vimeo.com/video/481648928" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen"></iframe>
+</p>
+<p>Le package <a href="https://github.com/benRenard/sequenceR">sequenceR</a> permet quant à lui de déclencher des sons prédéfinis (à la manière d&rsquo;un <a href="https://fr.wikipedia.org/wiki/S%C3%A9quenceur_musical">séquenceur musical</a>) sur la base de critères définis à partir des données. La vidéo ci-dessous <a href="https://globxblog.github.io/blog/fetedelascience2022/">explore ainsi l&rsquo;évolution</a> des trois flux hydrologiques précédents au cours des dernières décénnies pour quelques bassins situés en France.</p>
+<p style="text-align: center;color: gray;">
+<iframe src="https://player.vimeo.com/video/746451180" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen"></iframe>
+</p>
+<p>Pour plus d&rsquo;exemples de sonification basés sur ces packages, vous pouvez consulter <a href="https://globxblog.github.io/">ce blog</a>.</p>
 
 
 
