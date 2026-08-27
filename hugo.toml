@@ -173,6 +173,6 @@ defaultContentLanguageInSubdir = true
   showReadingTime = false
   showShare = false
   customCSS = ["css/style.css"]
-  math = true
+  math = false
 
 
