@@ -6,4 +6,5 @@ slug: "software"
 Here are our soft:
 
 * [BaRatinAGE](baratinage) to estimate rating curves and related uncertainties.
+* R packages for [data sonificiation](sonification)
 * etc...
