@@ -3,8 +3,8 @@ title: "Software"
 slug: "software"
 ---
 
-Here are our soft:
+The team develops the following software:
 
 * [BaRatinAGE](baratinage) to estimate rating curves and related uncertainties.
-* R packages for [data sonificiation](sonification)
+* [R packages](sonification) for data sonification
 * etc...
