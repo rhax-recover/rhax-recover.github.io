@@ -158,13 +158,21 @@ defaultContentLanguageInSubdir = true
       
 [markup]
   [markup.goldmark]
+    duplicateResourceFiles = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
     [markup.goldmark.renderer]
       unsafe = true
-
+          
 [params]
   showDate = false
   showReadingTime = false
   showShare = false
   customCSS = ["css/style.css"]
+  math = true
 
 

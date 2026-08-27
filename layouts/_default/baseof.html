@@ -58,6 +58,9 @@
   {{ partialCached "footer" . }}
   {{ partialCached "scripts/index" . }}
   {{ partialCached "hooks/body-end" . }}
+  {{ if .Param "math" }}
+    {{ partialCached "math.html" . }}
+  {{ end }}
 
 </body>
 </html>
