@@ -11,10 +11,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title>HydroPortailStats, HydroPortail&#39;s Statistical Module</title>
+  <title>Bayesian Model Estimation with BaM</title>
 
   
-<title>HydroPortailStats, HydroPortail&#39;s Statistical Module | </title>
+<title>Bayesian Model Estimation with BaM | </title>
 <meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -32,24 +32,24 @@
 <meta name="description" content="
   
 
-HydroPortail is the reference website for accessing hydrometric and hydrologic data in France. In addition to being a data portal, HydroPortail also …" />
+BaM (Bayesian Modeling) is a framework aimed at estimating a model using a Bayesian approach and using it for prediction. Uncertainties are at the core …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="HydroPortailStats, HydroPortail&#39;s Statistical Module" />
+<meta name="twitter:title" content="Bayesian Model Estimation with BaM" />
 <meta name="twitter:image" content="https://rhax-recover.github.io/"/>
-<meta property="og:url" content="https://rhax-recover.github.io/en/tools/software/hydroportailstats/" />
-<meta property="og:title" content="HydroPortailStats, HydroPortail&#39;s Statistical Module" />
+<meta property="og:url" content="https://rhax-recover.github.io/en/tools/software/bam/" />
+<meta property="og:title" content="Bayesian Model Estimation with BaM" />
 <meta property="og:description" content="
   
 
-HydroPortail is the reference website for accessing hydrometric and hydrologic data in France. In addition to being a data portal, HydroPortail also …" />
+BaM (Bayesian Modeling) is a framework aimed at estimating a model using a Bayesian approach and using it for prediction. Uncertainties are at the core …" />
 <meta property="og:image" content="https://rhax-recover.github.io/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://rhax-recover.github.io/images/logo/logo_rhax.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://rhax-recover.github.io/images/logo/favicon-48x48.png">
 <link rel="manifest" href="https://rhax-recover.github.io/images/logo/site.webmanifest">
 
-<link rel="canonical" href="https://rhax-recover.github.io/en/tools/software/hydroportailstats/">
+<link rel="canonical" href="https://rhax-recover.github.io/en/tools/software/bam/">
 
 
 
@@ -175,15 +175,22 @@ HydroPortail is the reference website for accessing hydrometric and hydrologic d
 
 
 
-<h1>HydroPortailStats, HydroPortail&#39;s Statistical Module</h1>
+<h1>Bayesian Model Estimation with BaM</h1>
 
 <p style="text-align: center">
-<a href="https://github.com/benRenard/HydroPortailStats"> <img src="logo_HydroPortailStats.png" width="75%"> </a>
+<a href="https://baratin-tools.github.io/fr/"> <img src="BaM_logo.svg" width="30%"> </a>
 </p>
-<p><a href="https://hydro.eaufrance.fr/">HydroPortail</a> is the reference website for accessing hydrometric and hydrologic data in France. In addition to being a data portal, HydroPortail also provides statistical tools to analyze the series it stores, and in particular to estimate design discharge values (e.g. 10-year flood or 5-year drought). The R package <a href="https://github.com/benRenard/HydroPortailStats">HydroPortailStats</a> contains all statistical computations made by HydroPortail, and even a few more such as the Bayesian estimation of a distribution or the analysis of incomplete and uncertain historical flood data.</p>
+<p><strong>BaM (Bayesian Modeling) is a framework aimed at estimating a model using a Bayesian approach and using it for prediction. Uncertainties are at the core of BaM: integration of uncertainties affecting calibration data, quantification of uncertainties affecting the model&rsquo;s predictions.</strong></p>
+<p>BaM includes several open-source codes:</p>
+<ul>
+<li>The computational engine <a href="https://github.com/BaM-tools/BaM">BaM</a> is a Fortran executable implementing the main steps of Bayesian inference, in particular the computation of the posterior distribution and its exploration with MCMC (Markov Chain Monte Carlo) samplers.</li>
+<li>The R package <a href="https://github.com/BaM-tools/RBaM">RBaM</a> allows controlling this computational engine from <a href="https://www.r-project.org/">R</a>, and thereby eases model definition, prior specification, data manipulation, the exploitation of MCMC simulations and the realization of uncertain predictions.</li>
+<li>The Python package <a href="https://github.com/BaM-tools/PBaM">PBaM</a> follows the same objectives with <a href="https://www.python.org/">Python</a>, but is still in an early stage of development.</li>
+</ul>
+<p>BaM&rsquo;s framework is model-agnostic: it provides a generic estimation method that does not depend on the calibrated model, and can hence be applied (in theory at least) to any model. BaM has already been used to estimate the parameters and uncertainties of a wide range of models, including <a href="https://github.com/NEONScience/NEON-stream-discharge">standard rating curves</a> or more complex ones (<a href="https://doi.org/10.1002/2016WR018916">twin-gauge</a>, <a href="https://doi.org/10.1029/2018WR023389">multi-period</a>, influenced by <a href="https://doi.org/10.1029/2020WR027745">vegetation</a> or <a href="https://hal.science/hal-01745487v1">tides</a>), optical <a href="https://hal.science/hal-03465105v1">orthorectification</a> models, hydrological (XXX) or <a href="https://hal.science/hal-05725973v1">hydrodynamic</a> models, <a href="https://hal.science/hal-03948254v1">sediment transport</a> models, <a href="https://doi.org/10.1029/2020WR028607">segmentation</a> procedures, etc.</p>
 <p style="text-align: center;color: gray;">
-<img src="HydroPortailStats_screenshot.png" width="90%"> </br>
-Example of figure generated from HydroPortailStats.
+<img src="ModelObject.en.svg" width="90%"> </br>
+Illustration of the generic model object manipulated by BaM.
 </p>
 
 

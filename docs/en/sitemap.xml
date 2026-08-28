@@ -14,6 +14,18 @@
                 href="https://rhax-recover.github.io/en/tools/software/baratinage/"
                 />
   </url><url>
+    <loc>https://rhax-recover.github.io/en/tools/software/bam/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://rhax-recover.github.io/fr/tools/software/bam/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rhax-recover.github.io/en/tools/software/bam/"
+                />
+  </url><url>
     <loc>https://rhax-recover.github.io/en/research/variability/</loc>
     <xhtml:link
                 rel="alternate"
@@ -36,6 +48,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://rhax-recover.github.io/en/categories/"
+                />
+  </url><url>
+    <loc>https://rhax-recover.github.io/en/tools/software/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://rhax-recover.github.io/fr/tools/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rhax-recover.github.io/en/tools/software/"
                 />
   </url><url>
     <loc>https://rhax-recover.github.io/en/team/current/</loc>
@@ -156,18 +180,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://rhax-recover.github.io/en/tools/software/shifthappens/"
-                />
-  </url><url>
-    <loc>https://rhax-recover.github.io/en/tools/software/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://rhax-recover.github.io/fr/tools/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://rhax-recover.github.io/en/tools/software/"
                 />
   </url><url>
     <loc>https://rhax-recover.github.io/en/tools/software/sonification/</loc>

@@ -1,3 +1,7 @@
+:root {
+  --lrpadding: 20%;
+}
+
 /* Force le dropdown du menu Équipe */
 .nav_parent {
   position: relative; /* nécessaire pour le positionnement du sous-menu */
@@ -202,7 +206,8 @@ body {
 /* Listes à puces */
 ul {
   list-style-type: disc; /* affiche des points */
-  padding-left: 20%;
+  padding-left: var(--lrpadding);
+  padding-right: var(--lrpadding);
   margin-bottom: 1em;
 }
 
@@ -216,7 +221,7 @@ h1, h3, h4 {
   margin-top: 0em;
   margin-bottom: 0.em; /* réduit l'espace après le titre */
   text-align: ;
-  padding: 0rem 20%;
+  padding: 0rem var(--lrpadding);
 }
 
 /* Titres */
@@ -235,7 +240,7 @@ p {
   text-align: justify;  /* justifie le texte comme sur ton image */
   line-height: 1.6em;   /* espace entre les lignes */
   margin-bottom: 1em;
-  padding: 0rem 20%;
+  padding: 0rem var(--lrpadding);
 }
 
 /* Links */

@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 <html
-  lang="en"
+  lang="fr"
   data-figures=""
   class="page"
   
@@ -11,10 +11,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title>HydroPortailStats, HydroPortail&#39;s Statistical Module</title>
+  <title>Estimation Bayesienne de modèles avec BaM</title>
 
   
-<title>HydroPortailStats, HydroPortail&#39;s Statistical Module | </title>
+<title>Estimation Bayesienne de modèles avec BaM | </title>
 <meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -24,32 +24,32 @@
 
 
 
-<meta property="og:locale" content="en" />
+<meta property="og:locale" content="fr" />
 
-<meta property="og:locale:alternate" content="fr" />
+<meta property="og:locale:alternate" content="en" />
 
 <meta property="og:type" content="article">
 <meta name="description" content="
   
 
-HydroPortail is the reference website for accessing hydrometric and hydrologic data in France. In addition to being a data portal, HydroPortail also …" />
+BaM (Bayesian Modeling) est un cadre générique permettant d&rsquo;estimer un modèle quelconque avec une approche Bayesienne, et d&rsquo;utiliser le …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="HydroPortailStats, HydroPortail&#39;s Statistical Module" />
+<meta name="twitter:title" content="Estimation Bayesienne de modèles avec BaM" />
 <meta name="twitter:image" content="https://rhax-recover.github.io/"/>
-<meta property="og:url" content="https://rhax-recover.github.io/en/tools/software/hydroportailstats/" />
-<meta property="og:title" content="HydroPortailStats, HydroPortail&#39;s Statistical Module" />
+<meta property="og:url" content="https://rhax-recover.github.io/fr/tools/software/bam/" />
+<meta property="og:title" content="Estimation Bayesienne de modèles avec BaM" />
 <meta property="og:description" content="
   
 
-HydroPortail is the reference website for accessing hydrometric and hydrologic data in France. In addition to being a data portal, HydroPortail also …" />
+BaM (Bayesian Modeling) est un cadre générique permettant d&rsquo;estimer un modèle quelconque avec une approche Bayesienne, et d&rsquo;utiliser le …" />
 <meta property="og:image" content="https://rhax-recover.github.io/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://rhax-recover.github.io/images/logo/logo_rhax.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://rhax-recover.github.io/images/logo/favicon-48x48.png">
 <link rel="manifest" href="https://rhax-recover.github.io/images/logo/site.webmanifest">
 
-<link rel="canonical" href="https://rhax-recover.github.io/en/tools/software/hydroportailstats/">
+<link rel="canonical" href="https://rhax-recover.github.io/fr/tools/software/bam/">
 
 
 
@@ -57,8 +57,8 @@ HydroPortail is the reference website for accessing hydrometric and hydrologic d
 
 
 
-<link rel="preload" href="https://rhax-recover.github.io/en/js/bundle.a4470020476d92a19e041e44b29131ef4071e7c368aa39de5a28735ba7f0a2c01168782fbd9de4647c11e679d0fc9fe3446a620ca9e813a814e9ed87273989b8.js" as="script" integrity=
-"sha512-pEcAIEdtkqGeBB5EspEx70Bx58NoqjneWihzW6fwosARaHgvvZ3kZHwR5nnQ/J/jRGpiDKnoE6gU6e2HJzmJuA==" crossorigin="anonymous">
+<link rel="preload" href="https://rhax-recover.github.io/fr/js/bundle.7fed9a0ed00ed231f6f1081d1264772dd199c9bd1d2235bb197fc9ae5e31e0ab969c3d7a0d7c43f2096799d622918ae0b457854325c10b27e25823508212d610.js" as="script" integrity=
+"sha512-f&#43;2aDtAO0jH28QgdEmR3LdGZyb0dIjW7GX/Jrl4x4KuWnD16DXxD8glnmdYikYrgtFeFQyXBCyfiWCNQghLWEA==" crossorigin="anonymous">
 
 
 <link rel="stylesheet" type="text/css" href="https://rhax-recover.github.io/css/styles.dc38388a8f0b890e788bd3a99b7495d14e7d5ac4359ed3b49abeb778497863b284ad4cc7e496ef58c84139295f9bafed82f5a41345eda86bd2d429cccb7c2596.css" integrity="sha512-3Dg4io8LiQ54i9Opm3SV0U59WsQ1ntO0mr63eEl4Y7KErUzH5JbvWMhBOSlfm6/tgvWkE0XtqGvS1CnMy3wllg==" crossorigin="anonymous">
@@ -71,7 +71,7 @@ HydroPortail is the reference website for accessing hydrometric and hydrologic d
 
 <body
   id="documentTop"
-  data-lang="en"
+  data-lang="fr"
   data-code="100"
   data-lines="false"
 >
@@ -89,7 +89,7 @@ HydroPortail is the reference website for accessing hydrometric and hydrologic d
     
 
 <header class="nav_header" >
-  <nav class="nav"><a href='https://rhax-recover.github.io/en/' class="nav_brand nav_item" title="">
+  <nav class="nav"><a href='https://rhax-recover.github.io/fr/' class="nav_brand nav_item" title="">
   <div class="nav_close">
     <div><svg class="icon">
   <title>open-menu</title>
@@ -110,38 +110,38 @@ HydroPortail is the reference website for accessing hydrometric and hydrologic d
         
 
   <div class="nav_parent">
-    <a href="https://rhax-recover.github.io/en" class="nav_item" title="RHAX">RHAX </a>
+    <a href="https://rhax-recover.github.io/fr" class="nav_item" title="RHAX">RHAX </a>
   </div>
   <div class="nav_parent">
-    <a href="https://rhax-recover.github.io/en/team" class="nav_item" title="Team">Team <img src='https://rhax-recover.github.io/icons/caret-icon.svg' alt="icon" class="nav_icon"></a>
+    <a href="https://rhax-recover.github.io/fr/team" class="nav_item" title="Équipe">Équipe <img src='https://rhax-recover.github.io/icons/caret-icon.svg' alt="icon" class="nav_icon"></a>
     <div class="nav_sub">
       <span class="nav_child"></span>
-        <a href="https://rhax-recover.github.io/en/team/current/" class="nav_child nav_item" title="Current Members">Current Members</a>
-        <a href="https://rhax-recover.github.io/en/team/past/" class="nav_child nav_item" title="Past Members">Past Members</a>
+        <a href="https://rhax-recover.github.io/fr/team/current/" class="nav_child nav_item" title="Équipe actuelle">Équipe actuelle</a>
+        <a href="https://rhax-recover.github.io/fr/team/past/" class="nav_child nav_item" title="Anciens membres">Anciens membres</a>
     </div>
   </div>
   <div class="nav_parent">
-    <a href="https://rhax-recover.github.io/en/research" class="nav_item" title="Research Topics">Research Topics <img src='https://rhax-recover.github.io/icons/caret-icon.svg' alt="icon" class="nav_icon"></a>
+    <a href="https://rhax-recover.github.io/fr/research" class="nav_item" title="Thématiques de Recherche">Thématiques de Recherche <img src='https://rhax-recover.github.io/icons/caret-icon.svg' alt="icon" class="nav_icon"></a>
     <div class="nav_sub">
       <span class="nav_child"></span>
-        <a href="https://rhax-recover.github.io/en/research/variability/" class="nav_child nav_item" title="Characterizing Hydro-Climate Variability">Characterizing Hydro-Climate Variability</a>
-        <a href="https://rhax-recover.github.io/en/research/modeling/" class="nav_child nav_item" title="Modeling Hydrological Processes">Modeling Hydrological Processes</a>
+        <a href="https://rhax-recover.github.io/fr/research/variability/" class="nav_child nav_item" title="Caractérisation de la variabilité hydro-climatique">Caractérisation de la variabilité hydro-climatique</a>
+        <a href="https://rhax-recover.github.io/fr/research/modeling/" class="nav_child nav_item" title="Modélisation des processus hydrologiques">Modélisation des processus hydrologiques</a>
     </div>
   </div>
   <div class="nav_parent">
-    <a href="https://rhax-recover.github.io/en/projects/" class="nav_item" title="Projects">Projects </a>
+    <a href="https://rhax-recover.github.io/fr/projects/" class="nav_item" title="Projets">Projets </a>
   </div>
   <div class="nav_parent">
-    <a href="https://rhax-recover.github.io/en/tools" class="nav_item" title="Tools">Tools <img src='https://rhax-recover.github.io/icons/caret-icon.svg' alt="icon" class="nav_icon"></a>
+    <a href="https://rhax-recover.github.io/fr/tools" class="nav_item" title="Outils">Outils <img src='https://rhax-recover.github.io/icons/caret-icon.svg' alt="icon" class="nav_icon"></a>
     <div class="nav_sub">
       <span class="nav_child"></span>
-        <a href="https://rhax-recover.github.io/en/tools/models/" class="nav_child nav_item" title="Models">Models</a>
-        <a href="https://rhax-recover.github.io/en/tools/databases/" class="nav_child nav_item" title="Databases">Databases</a>
-        <a href="https://rhax-recover.github.io/en/tools/software/" class="nav_child nav_item" title="Code and Software">Code and Software</a>
+        <a href="https://rhax-recover.github.io/fr/tools/models/" class="nav_child nav_item" title="Modèles">Modèles</a>
+        <a href="https://rhax-recover.github.io/fr/tools/databases/" class="nav_child nav_item" title="Bases de données">Bases de données</a>
+        <a href="https://rhax-recover.github.io/fr/tools/software/" class="nav_child nav_item" title="Codes et Logiciels">Codes et Logiciels</a>
     </div>
   </div>
   <div class="nav_parent">
-    <a href="https://rhax-recover.github.io/fr" class="nav_item" title="🇫🇷 fr">🇫🇷 fr </a>
+    <a href="https://rhax-recover.github.io/en" class="nav_item" title="🇬🇧 en">🇬🇧 en </a>
   </div>
       
       <div class="nav_parent">
@@ -175,15 +175,22 @@ HydroPortail is the reference website for accessing hydrometric and hydrologic d
 
 
 
-<h1>HydroPortailStats, HydroPortail&#39;s Statistical Module</h1>
+<h1>Estimation Bayesienne de modèles avec BaM</h1>
 
 <p style="text-align: center">
-<a href="https://github.com/benRenard/HydroPortailStats"> <img src="logo_HydroPortailStats.png" width="75%"> </a>
+<a href="https://baratin-tools.github.io/fr/"> <img src="BaM_logo.svg" width="30%"> </a>
 </p>
-<p><a href="https://hydro.eaufrance.fr/">HydroPortail</a> is the reference website for accessing hydrometric and hydrologic data in France. In addition to being a data portal, HydroPortail also provides statistical tools to analyze the series it stores, and in particular to estimate design discharge values (e.g. 10-year flood or 5-year drought). The R package <a href="https://github.com/benRenard/HydroPortailStats">HydroPortailStats</a> contains all statistical computations made by HydroPortail, and even a few more such as the Bayesian estimation of a distribution or the analysis of incomplete and uncertain historical flood data.</p>
+<p><strong>BaM (Bayesian Modeling) est un cadre générique permettant d&rsquo;estimer un modèle quelconque avec une approche Bayesienne, et d&rsquo;utiliser le modèle pour générer des prédictions. La gestion des incertitudes est au coeur de BaM: prise en compte des incertitudes affectant les données de calage, quantification des incertitudes affectant les prédictions du modèle.</strong></p>
+<p>L&rsquo;outil BaM est composé de plusieurs briques qui sont toutes open-source :</p>
+<ul>
+<li>Le coeur de calcul <a href="https://github.com/BaM-tools/BaM">BaM</a> est un exécutable Fortran qui implémente les principales étapes de l&rsquo;inférence Bayesienne, en particulier le calcul de la distribution a posteriori et son exploration par des échantillonneurs MCMC (Monte Carlo par Chaînes de Markov).</li>
+<li>Le package R <a href="https://github.com/BaM-tools/RBaM">RBaM</a> permet de contrôler ce coeur de calcul depuis <a href="https://www.r-project.org/">R</a>, et facilite la définition du modèle à estimer, la spécification des distributions a priori, la manipulation des données de calage, l&rsquo;exploitation des simulations MCMC et la réalisation de prédictions incertaines.</li>
+<li>Le package Python <a href="https://github.com/BaM-tools/PBaM">PBaM</a> poursuit les mêmes objectifs sous <a href="https://www.python.org/">Python</a>, mais est encore dans une phase de développement moins avancée.</li>
+</ul>
+<p>Le cadre de BaM est agnostique au modèle : il vise à proposer une méthode d&rsquo;estimation générique qui soit indépendante du modèle utilisé et qui puisse donc être appliqué (du moins en théorie) à n&rsquo;importe quel modèle. BaM a ainsi été utilisé pour l&rsquo;estimation des paramètres et des incertitudes de modèles variés, comme par exemple des courbes de tarage <a href="https://github.com/NEONScience/NEON-stream-discharge">classiques</a> ou plus complexes (<a href="https://doi.org/10.1002/2016WR018916">à double échelle</a>, <a href="https://doi.org/10.1029/2018WR023389">multi-périodes</a>, affectées par la <a href="https://doi.org/10.1029/2020WR027745">végétation</a> ou la <a href="https://hal.science/hal-01745487v1">marée</a>), des modèles optiques d&rsquo;<a href="https://hal.science/hal-03465105v1">orthorectification</a>, des modèles hydrologiques (XXX) ou <a href="https://hal.science/hal-05725973v1">hydrauliques</a>, des modèles de <a href="https://hal.science/hal-03948254v1">transport sédimentaire</a>, des modèles de <a href="https://doi.org/10.1029/2020WR028607">segmentation</a>, etc.</p>
 <p style="text-align: center;color: gray;">
-<img src="HydroPortailStats_screenshot.png" width="90%"> </br>
-Example of figure generated from HydroPortailStats.
+<img src="ModelObject.fr.svg" width="90%"> </br>
+Illustration de l'objet générique "modèle" manipulé par BaM.
 </p>
 
 
@@ -300,7 +307,7 @@ Example of figure generated from HydroPortailStats.
 </div>
 
   
-<script type="text/javascript" src="https://rhax-recover.github.io/en/js/bundle.a4470020476d92a19e041e44b29131ef4071e7c368aa39de5a28735ba7f0a2c01168782fbd9de4647c11e679d0fc9fe3446a620ca9e813a814e9ed87273989b8.js" integrity="sha512-pEcAIEdtkqGeBB5EspEx70Bx58NoqjneWihzW6fwosARaHgvvZ3kZHwR5nnQ/J/jRGpiDKnoE6gU6e2HJzmJuA==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://rhax-recover.github.io/fr/js/bundle.7fed9a0ed00ed231f6f1081d1264772dd199c9bd1d2235bb197fc9ae5e31e0ab969c3d7a0d7c43f2096799d622918ae0b457854325c10b27e25823508212d610.js" integrity="sha512-f&#43;2aDtAO0jH28QgdEmR3LdGZyb0dIjW7GX/Jrl4x4KuWnD16DXxD8glnmdYikYrgtFeFQyXBCyfiWCNQghLWEA==" crossorigin="anonymous"></script>
   
   
 
