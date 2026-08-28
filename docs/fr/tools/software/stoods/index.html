@@ -4,17 +4,17 @@
 <html
   lang="fr"
   data-figures=""
-  
+  class="page"
   
   
 >
 
 <head>
   <meta charset="utf-8">
-  <title>Codes et Logiciels</title>
+  <title>STooDs: modèles probabilistes pour les données variant dans le temps, l&#39;espace ou d&#39;autres dimensions</title>
 
   
-<title>Codes et Logiciels | </title>
+<title>STooDs: modèles probabilistes pour les données variant dans le temps, l&#39;espace ou d&#39;autres dimensions | </title>
 <meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -29,28 +29,27 @@
 <meta property="og:locale:alternate" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="L&rsquo;équipe développe les logiciels suivants :
+<meta name="description" content="
+  
 
-BaRatinAGE pour l&rsquo;estimation des courbes de tarage et des incertitudes associées.
-Le package R …" />
+STooDs (Space, Time or other Dimensions) est un cadre générique pour construire et estimer des modèles probabilistes décrivant des données variant dans …" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Codes et Logiciels" />
+<meta name="twitter:title" content="STooDs: modèles probabilistes pour les données variant dans le temps, l&#39;espace ou d&#39;autres dimensions" />
 <meta name="twitter:image" content="https://rhax-recover.github.io/"/>
-<meta property="og:url" content="https://rhax-recover.github.io/fr/tools/software/" />
-<meta property="og:title" content="Codes et Logiciels" />
-<meta property="og:description" content="L&rsquo;équipe développe les logiciels suivants :
+<meta property="og:url" content="https://rhax-recover.github.io/fr/tools/software/stoods/" />
+<meta property="og:title" content="STooDs: modèles probabilistes pour les données variant dans le temps, l&#39;espace ou d&#39;autres dimensions" />
+<meta property="og:description" content="
+  
 
-BaRatinAGE pour l&rsquo;estimation des courbes de tarage et des incertitudes associées.
-Le package R …" />
+STooDs (Space, Time or other Dimensions) est un cadre générique pour construire et estimer des modèles probabilistes décrivant des données variant dans …" />
 <meta property="og:image" content="https://rhax-recover.github.io/" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://rhax-recover.github.io/images/logo/logo_rhax.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://rhax-recover.github.io/images/logo/favicon-48x48.png">
 <link rel="manifest" href="https://rhax-recover.github.io/images/logo/site.webmanifest">
 
-<link rel="canonical" href="https://rhax-recover.github.io/fr/tools/software/">
-<link rel="alternate" type="application/rss+xml" href="https://rhax-recover.github.io/fr/tools/software/index.xml" title="" />
+<link rel="canonical" href="https://rhax-recover.github.io/fr/tools/software/stoods/">
 
 
 
@@ -176,20 +175,25 @@ Le package R …" />
 
 
 
-<h1 class="page-title">Codes et Logiciels</h1>
+<h1>STooDs: modèles probabilistes pour les données variant dans le temps, l&#39;espace ou d&#39;autres dimensions</h1>
 
-<p>L&rsquo;équipe développe les logiciels suivants :</p>
-<ul>
-<li><a href="baratinage">BaRatinAGE</a> pour l&rsquo;estimation des courbes de tarage et des incertitudes associées.</li>
-<li>Le package R <a href="shifthappens">ShiftHappens</a> pour detecter, visualiser et estimer des changements soudains dans des séries de données, avec une attention particulière portée aux applications hydrometriques (détection de détarages).</li>
-<li>La suite <a href="bam">BaM</a> pour l&rsquo;estimation d&rsquo;un modèle quelconque et des incertitudes associées.</li>
-<li><a href="hydroportailstats">HydroPortailStats</a>, le package R utilisé par l&rsquo;<a href="https://hydro.eaufrance.fr/">HydroPortail</a> pour effectuer ses calculs statistiques.</li>
-<li>La suite <a href="stoods">STooDs</a> pour la construction et l&rsquo;estimation de modèles probabilistes décrivant des données espace-temps multivariées.</li>
-<li>Des <a href="sonification">packages R</a> pour la sonification de données.</li>
-<li>etc&hellip;</li>
-</ul>
-
-
+<p style="text-align: center">
+<a href="https://baratin-tools.github.io/fr/"> <img src="STooDs_logo.svg" width="30%"> </a>
+</p>
+<p><strong><a href="https://github.com/STooDs-tools">STooDs</a> (Space, Time or other Dimensions) est un cadre générique pour construire et estimer des modèles probabilistes décrivant des données variant dans le temps, l&rsquo;espace ou toute autre dimension.</strong></p>
+<p>A titre d&rsquo;exemple, STooDs permet d&rsquo;analyser conjointement des aléas comme les vagues de chaleur, les sécheresses pluviométriques et les étiages en rivière au sein d&rsquo;une région géographique. Cette analyse vise typiquement à estimer la probabilité d&rsquo;occurrence d&rsquo;événements extrêmes (séparément pour chaque aléa ou conjointement), comment cette probabilité varie dans l&rsquo;espace, et comment elle a changé dans le passé ou elle pourrait évoluer dans le futur.</p>
+<p>STooDs est basé sur les étapes suivantes :</p>
+<ol>
+<li>Le jeu de données à analyser contient les valeurs prises par une ou plusieurs variables variant dans une ou plusieurs dimensions (temps, espace ou autre).</li>
+<li>Pour chaque variable, une distribution doit être spécifiée, et les paramètres de cette distribution peuvent varier dans les mêmes dimensions que les données.</li>
+<li>La variabilité des paramètres est décrire par des formules de régression qui peuvent faire intervenir des paramètres, des covariables ou des processus cachés.</li>
+<li>Le modèle probabiliste ainsi construit est estimé par inférence Bayesienne et peut être utilisé pour estimer, par exemple, des niveaux de risque.</li>
+</ol>
+<p>En termes de code, STooDs se compose de deux briques logicielles : le coeur de calcul <a href="https://github.com/STooDs-tools/STooDs">STooDs</a>, un exécutable Fortran qui implémente les principales étapes de l&rsquo;inférence Bayesienne, et le package R <a href="https://github.com/STooDs-tools/RSTooDs">RSTooDs</a> qui permet de contrôler ce coeur de calcul depuis <a href="https://www.r-project.org/">R</a>, facilitant ainsi la définition du modèle, la manipulation des données, et l&rsquo;exploitation des résultats de l’inférence Bayesienne pour produire des estimations et quantifier les incertitudes associées. Le code inclut des fonctionnalités telles qu&rsquo;un large choix de distributions (dont des distributions non gaussiennes, discrètes ou continues, etc.), la possibilité d&rsquo;intégrer des données incertaines et incomplètes (par exemple des crues historiques), et la possibilité d&rsquo;utiliser des modèles à covariables cachées (aussi connus sous le nom &lsquo;modèles à variables/facteurs latents&rsquo;). Grace à cette flexibilité, STooDs a été appliqué à un éventail de cas assez varié : <a href="https://doi.org/10.1029/2019WR024951">occurrence de crues</a> en France, étés <a href="https://doi.org/10.1029/2021WR030007">chauds et secs</a> en Australie, <a href="https://doi.org/10.1029/2022JD037908">crues et précipitations intenses</a> à l&rsquo;échelle globale, ou l&rsquo;utilisation conjointe de <a href="https://doi.org/10.1080/02626667.2023.2212165">repères de crues et de données hydrométriques</a> pour estimer des probabilités de crues anciennes en France, comme illustré dans la vidéo ci-dessous (plus de détails <a href="https://globxblog.github.io/blog/reperes-de-crues/">ici</a>).</p>
+<p style="text-align: center;color: gray;">
+<iframe src="https://player.vimeo.com/video/815008124" frameborder="0" width="100%" height="440" allowfullscreen="allowfullscreen"></iframe> </br>
+Estimation de probabilités de crues anciennes en utilisant STooDs.
+</p>
 
 
 

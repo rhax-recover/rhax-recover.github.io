@@ -194,6 +194,18 @@
                 href="https://rhax-recover.github.io/en/tools/software/sonification/"
                 />
   </url><url>
+    <loc>https://rhax-recover.github.io/en/tools/software/stoods/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://rhax-recover.github.io/fr/tools/software/stoods/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rhax-recover.github.io/en/tools/software/stoods/"
+                />
+  </url><url>
     <loc>https://rhax-recover.github.io/en/tags/</loc>
     <xhtml:link
                 rel="alternate"

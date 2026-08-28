@@ -77,5 +77,12 @@
       <guid>https://rhax-recover.github.io/en/tools/software/sonification/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Sonification refers to the process of transforming data into sound, in the same way as visualization transforms data into images. This allows telling the story brought by the data in music.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The team developed two R packages to ease the sonification process and encourage &lt;a href=&#34;https://hal.science/hal-03710340v1&#34;&gt;musical data storytelling&lt;/a&gt;. The &lt;a href=&#34;https://github.com/benRenard/musicXML&#34;&gt;musicXML&lt;/a&gt; package allows writing a musical score in &lt;a href=&#34;https://en.wikipedia.org/wiki/MusicXML&#34;&gt;musicXML format&lt;/a&gt; by defining a mapping between data values and note properties (in particular their pitch, volume and duration). The video below provides &lt;a href=&#34;https://globxblog.github.io/blog/hydrology-basics-1/&#34;&gt;an example&lt;/a&gt; based on this package, where the three main hydrological fluxes involved in the catchment water balance (precipitation, evapotranspiration and streamflow) control three musical instruments.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>STooDs: probabilistic models for data varying in space, time or other dimensions</title>
+      <link>https://rhax-recover.github.io/en/tools/software/stoods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rhax-recover.github.io/en/tools/software/stoods/</guid>
+      <description>&lt;p style=&#34;text-align: center&#34;&gt;&#xD;&#xA;&lt;a href=&#34;https://baratin-tools.github.io/fr/&#34;&gt; &lt;img src=&#34;STooDs_logo.svg&#34; width=&#34;30%&#34;&gt; &lt;/a&gt;&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/STooDs-tools&#34;&gt;STooDs&lt;/a&gt; is a framework to build and estimate probabilistic models for data varying in Space, Time or other Dimensions.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;For instance, STooDs allows jointly analyzing hazards such as heatwaves, precipitation deficits and river droughts in a region. This analysis typically aims at estimating the probability of occurrence of extreme events (for each hazard separately or jointly for the three of them), how this probability varies in space, and how it changed in the past or it may change in the future.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

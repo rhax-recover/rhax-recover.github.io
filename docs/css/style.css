@@ -215,6 +215,17 @@ ul li {
   line-height: 1.5em;
 }
 
+/* Listes numérotées */
+ol {
+  padding-left: var(--lrpadding);
+  padding-right: var(--lrpadding);
+  margin-bottom: 1em;
+}
+
+ol li {
+  line-height: 1.5em;
+}
+
 /* Titres */
 h1, h3, h4 {
   font-weight: bold;
