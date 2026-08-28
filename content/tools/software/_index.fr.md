@@ -9,6 +9,7 @@ L'équipe développe les logiciels suivants :
 * Le package R [ShiftHappens](shifthappens) pour detecter, visualiser et estimer des changements soudains dans des séries de données, avec une attention particulière portée aux applications hydrometriques (détection de détarages).
 * La suite [BaM](bam) pour l'estimation d'un modèle quelconque et des incertitudes associées.
 * [HydroPortailStats](hydroportailstats), le package R utilisé par l'[HydroPortail](https://hydro.eaufrance.fr/) pour effectuer ses calculs statistiques.
-* Des [packages R](sonification) pour la sonification de données
+* La suite [STooDs](stoods) pour la construction et l'estimation de modèles probabilistes décrivant des données espace-temps multivariées.
+* Des [packages R](sonification) pour la sonification de données.
 * etc...
 
