@@ -3,6 +3,10 @@ title: "BaRatinAGE"
 slug: "baratinage"
 ---
 
+<p style="text-align: center">
+<a href="https://baratin-tools.github.io/fr/"> <img src="BaRatin_icon.svg" width="15%"> </a>
+</p>
+
 **Pour apporter des solutions opérationnelles aux problèmes délicats que posent la construction, le calage, la critique et l’estimation des incertitudes des courbes de tarage simples et complexes, la méthode bayésienne BaRatin (Bayesian Rating curve, [Le Coz et al., 2014](https://doi.org/10.1016/j.jhydrol.2013.11.016) ; [Horner et al., 2018](https://doi.org/10.1002/2017WR022039)) a été développée par INRAE depuis 2010. Le développement de méthodes pour la quantification des incertitudes des données et des modèles hydrologiques est un des thèmes de recherche de l'équipe.**
 
 Le logiciel [BaRatinAGE](https://github.com/BaRatin-tools/BaRatinAGE) est open-source et diffusé en plus de 25 langues (dont le français et l'anglais). La dernière version est disponible [ici](https://github.com/BaRatin-tools/BaRatinAGE/releases) et vous trouverez tous les détails ainsi que des supports de formation en français, anglais et espagnol sur le [site web de BaRatin](https://baratin-tools.github.io/fr/). Un tutoriel vidéo est disponible [ici](https://www.youtube.com/watch?v=dUutJkCaAro).

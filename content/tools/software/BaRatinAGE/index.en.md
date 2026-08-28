@@ -1,7 +1,12 @@
 ---
-title: "BaRatinAGE"
+title: "BaRatinAGE" 
 slug: "baratinage"
 ---
+
+<p style="text-align: center">
+<a href="https://baratin-tools.github.io/en/"> <img src="BaRatin_icon.svg" width="15%"> </a>
+</p>
+
 
 **To provide operational solutions to the difficult problems of developing, calibrating, reviewing simple and complex rating curves and estimating their uncertainties, the Bayesian BaRatin method (Bayesian Rating curve, [Le Coz et al., 2014](https://doi.org/10.1016/j.jhydrol.2013.11.016) ; [Horner et al., 2018](https://doi.org/10.1002/2017WR022039)) has been developed by INRAE since 2010. The development of methods for quantifying the uncertainties of hydrologic data and models is one of the team's research themes.**
 

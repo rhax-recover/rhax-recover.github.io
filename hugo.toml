@@ -68,7 +68,7 @@ defaultContentLanguageInSubdir = true
 		    parent="outils"
 		    url = "/fr/tools/databases/"
 		  [[languages.fr.menu.main]]
-		    name = "Logiciels"
+		    name = "Codes et Logiciels"
 		    weight = 30
 		    parent="outils"
 		    url = "/fr/tools/software/"
@@ -137,7 +137,7 @@ defaultContentLanguageInSubdir = true
 		    parent="tools"
 		    url = "/en/tools/databases/"
 		  [[languages.en.menu.main]]
-		    name = "Software"
+		    name = "Code and Software"
 		    weight = 30
 		    parent="tools"
 		    url = "/en/tools/software/"
