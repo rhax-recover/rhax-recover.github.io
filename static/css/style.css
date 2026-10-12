@@ -258,6 +258,7 @@ p {
 .post_body a {
   text-decoration: underline;;
   color: #00a3a6;
+  padding: 0rem var(--lrpadding);
 }
 
 /* --- Réduction de l'espace dans la page de recherche --- */
