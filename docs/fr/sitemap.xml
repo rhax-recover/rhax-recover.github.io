@@ -38,6 +38,18 @@
                 href="https://rhax-recover.github.io/fr/tools/databases/"
                 />
   </url><url>
+    <loc>https://rhax-recover.github.io/fr/team/current/benjamin-renard/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rhax-recover.github.io/en/team/current/benjamin-renard/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://rhax-recover.github.io/fr/team/current/benjamin-renard/"
+                />
+  </url><url>
     <loc>https://rhax-recover.github.io/fr/research/variability/</loc>
     <xhtml:link
                 rel="alternate"

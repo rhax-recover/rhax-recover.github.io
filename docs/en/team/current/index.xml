@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Current Team on </title>
+    <link>https://rhax-recover.github.io/en/team/current/</link>
+    <description>Recent content in Current Team on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://rhax-recover.github.io/en/team/current/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Benjamin Renard</title>
+      <link>https://rhax-recover.github.io/en/team/current/benjamin-renard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rhax-recover.github.io/en/team/current/benjamin-renard/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Researcher in Statistical Hydrology&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p style=&#34;text-align: center&#34;&gt;&#xD;&#xA;&lt;img src=&#34;blurWaterCycle.png&#34; width=&#34;80%&#34;&gt;&lt;/br&gt;&#xD;&#xA;Modified from &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Diagram_of_the_Water_Cycle.jpg&#34;&gt;Ehud Tal&lt;/a&gt;&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;My research revolves around the development of &lt;strong&gt;probabilistic models&lt;/strong&gt; to quantify &lt;strong&gt;uncertainties&lt;/strong&gt; in hydrologic data and models, and to describe the &lt;strong&gt;space-time variability&lt;/strong&gt; of &lt;strong&gt;hydrologic extremes&lt;/strong&gt; such as floods and droughts.&lt;/p&gt;&#xA;&lt;p&gt;The list of scientific papers I contributed to can be found on &lt;a href=&#34;https://orcid.org/0000-0001-8447-5430&#34;&gt;ORCID&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Development codes and operational software I am contributing to can be found on my &lt;a href=&#34;https://github.com/benRenard&#34;&gt;GitHub page&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I try to discuss and illustrate my work in a &lt;a href=&#34;https://globxblog.github.io/&#34;&gt;♫ musical blog ♫&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

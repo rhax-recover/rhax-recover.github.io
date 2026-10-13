@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Equipe actuelle on </title>
+    <link>https://rhax-recover.github.io/fr/team/current/</link>
+    <description>Recent content in Equipe actuelle on </description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <atom:link href="https://rhax-recover.github.io/fr/team/current/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Benjamin Renard</title>
+      <link>https://rhax-recover.github.io/fr/team/current/benjamin-renard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rhax-recover.github.io/fr/team/current/benjamin-renard/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Chercheur en Hydrologie Statistique&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p style=&#34;text-align: center&#34;&gt;&#xD;&#xA;&lt;img src=&#34;blurWaterCycle.png&#34; width=&#34;80%&#34;&gt;&lt;/br&gt;&#xD;&#xA;Modifié de &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Diagram_of_the_Water_Cycle.jpg&#34;&gt;Ehud Tal&lt;/a&gt;&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Mes recherches s&amp;rsquo;articulent autour du dévelopement de &lt;strong&gt;modèles probabilistes&lt;/strong&gt; visant à quantifier les &lt;strong&gt;incertitudes&lt;/strong&gt; autour des données et des modèles hydrologiques, et à décrire la &lt;strong&gt;variabilité spatio-temporelle&lt;/strong&gt; des &lt;strong&gt;extrêmes hydrologiques&lt;/strong&gt; comme les crues ou les sécheresses.&lt;/p&gt;&#xA;&lt;p&gt;La liste des articles scientifiques auxquels j&amp;rsquo;ai contribué est consultable sur &lt;a href=&#34;https://orcid.org/0000-0001-8447-5430&#34;&gt;ORCID&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Les codes et logiciels que je contribue à développer sont disponibles sur ma &lt;a href=&#34;https://github.com/benRenard&#34;&gt;page GitHub&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;J&amp;rsquo;essaie d&amp;rsquo;illustrer mes travaux de recherche dans un &lt;a href=&#34;https://globxblog.github.io/&#34;&gt;♫ blog musical ♫&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
