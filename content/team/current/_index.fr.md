@@ -18,7 +18,7 @@ Voici la liste des membres actuels de l'équipe :
 [Benjamin Renard](#benjamin-renard), 
 [Gabriel Richard](#gabriel-richard),
 [Mathieu Tolsa](#mathieu-tolsa),
-[Pradeebane Vaittinada Ayar](#pradeebane-vaittinada-ayar)
+[Pradeebane Vaittinada Ayar](#pradeebane-vaittinada-ayar).
 
 
 #### Ahmad Akhtari
@@ -180,6 +180,7 @@ Links:
 <img alt="Personal Web Page" src="/images/personalWebPage.svg" width="32" height="32" /></a> - 
 <a href="https://orcid.org/0000-0001-XXXX-XXXX">
 <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_32x32.png" width="32" height="32"/></a>
+
 
 #### Mathieu Tolsa
 
