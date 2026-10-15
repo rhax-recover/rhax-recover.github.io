@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rhax on </title>
+    <title>Equipe Risques Hydrométéorologiques (RHAX) on </title>
     <link>https://rhax-recover.github.io/fr/</link>
-    <description>Recent content in rhax on </description>
+    <description>Recent content in Equipe Risques Hydrométéorologiques (RHAX) on </description>
     <generator>Hugo</generator>
     <language>fr</language>
     <atom:link href="https://rhax-recover.github.io/fr/index.xml" rel="self" type="application/rss+xml" />
@@ -68,7 +68,7 @@
       <link>https://rhax-recover.github.io/fr/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://rhax-recover.github.io/fr/projects/</guid>
-      <description>&lt;p&gt;Quelques projets emblématiques&lt;/p&gt;</description>
+      <description>&lt;p&gt;Quelques projets emblématiques:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Le projet &lt;a href=&#34;https://meandre.explore2.inrae.fr&#34;&gt;Explore2&lt;/a&gt; a permis de réaliser des projections hydro-climatologiques pour le 21e siècle en France.&lt;/li&gt;&#xA;&lt;li&gt;Le projet ANR &lt;a href=&#34;https://muffins-anr-project.hub.inrae.fr/&#34;&gt;MUFFINS&lt;/a&gt; a exploré de nouvelles approches de modélisation des crues et inondations, alliant modèles hydrologiques et hydrauliques, assimilation de données multi‑sources et intelligence artificielle pour améliorer la prévision et réduire les incertitudes.&lt;/li&gt;&#xA;&lt;li&gt;Le projet &lt;a href=&#34;https://share-maths-vives.github.io&#34;&gt;SHARE&lt;/a&gt; développe des méthodes pour l&amp;rsquo;analyse et la simulation des champs de pluie.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>ShiftHappens, un package pour la détection de changements soudains</title>

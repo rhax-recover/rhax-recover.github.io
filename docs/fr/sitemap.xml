@@ -110,6 +110,18 @@
                 href="https://rhax-recover.github.io/fr/team/current/"
                 />
   </url><url>
+    <loc>https://rhax-recover.github.io/fr/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rhax-recover.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://rhax-recover.github.io/fr/"
+                />
+  </url><url>
     <loc>https://rhax-recover.github.io/fr/tools/software/bam/</loc>
     <xhtml:link
                 rel="alternate"
@@ -180,18 +192,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://rhax-recover.github.io/fr/research/"
-                />
-  </url><url>
-    <loc>https://rhax-recover.github.io/fr/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://rhax-recover.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://rhax-recover.github.io/fr/"
                 />
   </url><url>
     <loc>https://rhax-recover.github.io/fr/tools/software/shifthappens/</loc>
