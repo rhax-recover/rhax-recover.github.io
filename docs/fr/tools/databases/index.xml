@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>fr</language>
     <atom:link href="https://rhax-recover.github.io/fr/tools/databases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SHYREG : quantiles de pluies et de débits en tout point du territoire</title>
+      <link>https://rhax-recover.github.io/fr/tools/databases/shyreg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rhax-recover.github.io/fr/tools/databases/shyreg/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;SHYREG désigne une méthode d&amp;rsquo;estimation des pluies et des crues de forte période de retour, et les deux bases de données qui en sont issues : &lt;a href=&#34;https://shyreg.pluie.recover.inrae.fr/&#34;&gt;SHYREG Pluie&lt;/a&gt;, qui donne des quantiles de pluies sur une grille régulière, et &lt;a href=&#34;https://shyreg.recover.inrae.fr/&#34;&gt;SHYREG Débit&lt;/a&gt;, qui donne des quantiles de débits aux exutoires de bassins versants, y compris non jaugés.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;On peut par exemple y lire la pluie centennale en 1 heure sur n&amp;rsquo;importe quel kilomètre carré de la métropole, ou le débit de pointe décennal d&amp;rsquo;un petit cours d&amp;rsquo;eau sans station hydrométrique. Ces valeurs servent notamment au dimensionnement d&amp;rsquo;ouvrages, à la cartographie de l&amp;rsquo;aléa inondation et aux études de risque.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

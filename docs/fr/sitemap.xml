@@ -206,6 +206,18 @@
                 href="https://rhax-recover.github.io/fr/tools/software/shifthappens/"
                 />
   </url><url>
+    <loc>https://rhax-recover.github.io/fr/tools/databases/shyreg/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://rhax-recover.github.io/en/tools/databases/shyreg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://rhax-recover.github.io/fr/tools/databases/shyreg/"
+                />
+  </url><url>
     <loc>https://rhax-recover.github.io/fr/tools/software/stoods/</loc>
     <xhtml:link
                 rel="alternate"

@@ -78,6 +78,13 @@
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/benRenard/ShiftHappens&#34;&gt;ShiftHappens&lt;/a&gt; est un package R dédié à la détection, la visualisation et l&amp;rsquo;estimation de changements soudains dans des séries de données, avec une attention particulière portée aux applications hydrometriques et notamment à la détection de détarages. Le package est dérivé des travaux de &lt;a href=&#34;https://doi.org/10.1029/2018WR023389&#34;&gt;Mansanarez et al.&lt;/a&gt; (2019) et &lt;a href=&#34;https://doi.org/10.1029/2020WR028607&#34;&gt;Darienzo et al.&lt;/a&gt; (2021).&lt;/p&gt;&#xA;&lt;p&gt;Comme illustré dans la figure ci-dessous, le package permet de segmenter une série de données en plusieurs sous-périodes homogènes. La méthode utilisée a été dévelopée pour permettre la prise en compte des incertitudes qui affectent les données, et pour retourner également les incertitudes autour des dates de changement estimées.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>SHYREG : quantiles de pluies et de débits en tout point du territoire</title>
+      <link>https://rhax-recover.github.io/fr/tools/databases/shyreg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rhax-recover.github.io/fr/tools/databases/shyreg/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;SHYREG désigne une méthode d&amp;rsquo;estimation des pluies et des crues de forte période de retour, et les deux bases de données qui en sont issues : &lt;a href=&#34;https://shyreg.pluie.recover.inrae.fr/&#34;&gt;SHYREG Pluie&lt;/a&gt;, qui donne des quantiles de pluies sur une grille régulière, et &lt;a href=&#34;https://shyreg.recover.inrae.fr/&#34;&gt;SHYREG Débit&lt;/a&gt;, qui donne des quantiles de débits aux exutoires de bassins versants, y compris non jaugés.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;On peut par exemple y lire la pluie centennale en 1 heure sur n&amp;rsquo;importe quel kilomètre carré de la métropole, ou le débit de pointe décennal d&amp;rsquo;un petit cours d&amp;rsquo;eau sans station hydrométrique. Ces valeurs servent notamment au dimensionnement d&amp;rsquo;ouvrages, à la cartographie de l&amp;rsquo;aléa inondation et aux études de risque.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>STooDs: modèles probabilistes pour les données variant dans le temps, l&#39;espace ou d&#39;autres dimensions</title>
       <link>https://rhax-recover.github.io/fr/tools/software/stoods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
