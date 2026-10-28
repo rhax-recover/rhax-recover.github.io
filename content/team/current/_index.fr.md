@@ -35,15 +35,15 @@ Links:
 
 #### Patrick Arnaud
 
-*Poste*
+*Ingénieur de Recherche*
 
-Thématiques de recherche
+Prédétermination des crues, approches par simulation stochastique.
 
-Links: 
-<a href="XXX-XXX">
-<img alt="Personal Web Page" src="/images/personalWebPage.svg" width="32" height="32" /></a> - 
-<a href="https://orcid.org/0000-0001-XXXX-XXXX">
-<img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_32x32.png" width="32" height="32"/></a>
+Links:
+<a href="https://orcid.org/0000-0003-4291-5949">
+<img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_32x32.png" width="32" height="32"/></a> - 
+<a href="https://www.sciencedirect.com/author/35955436800/patrick-arnaud">
+<img alt="ScienceDirect logo" src="/images/Elsevier.png" width="32" height="32" /></a>
 
 #### Lucas Cribaillet
 
